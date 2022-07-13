@@ -1,6 +1,8 @@
 import unittest
 from project.persistence.users_dao import get_users
 
+print('gd')
+
 class userdb(unittest.TestCase):
     
     def test_get_users(self):
